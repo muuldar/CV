@@ -23,7 +23,12 @@ html, body {
 
 .encabezado{
   float: left;
-  width: 50%;
+  width: 70%;
+}
+
+.encabezado2{
+  float: left;
+  width: 30%;
 }
 /*
 #imagen {
