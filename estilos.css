@@ -3,56 +3,74 @@ form { font: 1em/1.5 monospace;
 margin-top:  200px; 
 }
 label,input { margin: 0.5em; }
+#form_contact{
+  margin-left: 30px;
+}
+form{
+  padding-left: 30px;
+}
+/* Incluir uentes*/
+
+  @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+  
+  @import url('https://fonts.googleapis.com/css2?family=Hind+Madurai&display=swap');
+
 
 html, body {
     margin: 0;
-    background-color: rosybrown;
-    background-image:url(fondo.jpg);
+    background-color:white;
+    background-image:url(mury_fondo.jpg);
     background-size: cover;
-   
-    font-family: 'Raleway Dots', sans-serif;
+    color:  #6b6b6b;
+    font-family: 'Bebas Neue','Raleway Dots', sans-serif;
+    
 }
-  /* ormato encabezado*/
+  /* formato encabezado*/
   #encabezado {
-  background-color: aqua;
-  background-image:url(encabezado.jpg);
+  background-color: rgb(242, 247, 247);
   background-size: 100% 100%;
+  overflow: auto; 
+}
 
+.encabezado{
+  float: left;
+  width: 70%;
 }
-.imagen {
-  display: flex;
-  justify-content:right;
-  align-items:center;
+
+.encabezado2{
+  float: left;
+  width: 30%;
+}
+
+p.centro {
  
+  text-align: center;
 }
-#imagen {
-  margin: 50px;
- 
-  min-height: 200px;
-}
+
 h1,h2 { 
-   color: #ffffff;
+   color: #88CC83;
    
 }
 h1 {
-  font-size: 100px;
-  font-style: italic;
+  font-size: 90px;
+  font-style: normal;
   margin-left: 20%;
- padding-top: 250px;
+  margin-top: 10px;
+  margin-right: auto;
+  margin-bottom: 5px;
+ padding-top: 5px;
 }
 h2 {
   font-size: 40px;
-  font-weight: bold;
-  font-family: 'Times New Roman', Times, serif;
-  font-weight: 300;
-  margin-left: 25%;
-  padding-top: 70px;
-  color: red;
+  font-weight:normal;
+  font-family: 'Hind maduray','Open Sans';
+  margin-left: 20%;
+  color: #6b6b6b;
 }
 p {
   font-family: 'Open Sans', sans-serif;
   font-style: italic;
-  color: black;
+  color:  #6b6b6b;;
   font-weight: bold;
 }
 nav {
@@ -64,7 +82,7 @@ nav a {
  
     display: inline-block;
     color:#fff;
-    font-weight: bold;
+    font-weight: normal;
     text-decoration: none;
     margin-top: 30px;
     border: 1px solid #fff;
@@ -72,8 +90,12 @@ nav a {
     border-radius: 3px;
     text-align: center;
     padding: 10px 0;
+    background-color: #386DBA;
     
 
+}
+#Aexp{
+  background-color: #2B59A1;
 }
 #iconos {
  text-align: center;
@@ -88,7 +110,7 @@ nav a {
   margin: 0 auto;
   max-width: 70%;
 }
- .exper  {
+ #exper  {
   text-align: center;
   margin: 0 auto;
   max-width: 70%;
