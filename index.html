@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="estilos.css">
     <title>CV</title>
-    <script type="text/javascript" src="js2.js"></script>
+    <script  src="./jscript.js"></script>
     <!--link de footer-->
     <link href="https://fonts.googleapis.com/css?family=Raleway+Dots" rel="stylesheet" type="text/css">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -35,9 +35,9 @@
    </div>
     <!--Navegacion-->
    <nav>
-      <a href="">Sobre mi</a>
-      <a href="">Eperiencia</a>
-      <a href="">Contacto</a>
+      <a href="#sobreMi">Sobre mi</a>
+      <a href="#exper">Eperiencia</a>
+      <a href="#miForm">Contacto</a>
     <!--
     <ul class="menu">
          <li id="1">Sobre mi</li>
@@ -56,6 +56,8 @@
    </div>>
   -->
    <div id="sobreMi">
+    <h3>Sobre mi</h3>
+    <br>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto aliquam sit, omnis iure cumque 
             alias unde doloremque excepturi est ut numquam consequatur repudiandae. Temporibus soluta odio
              doloremque aut debitis saepe. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id, facere?
@@ -72,6 +74,8 @@
    </div>
    <!--  resumen eperiencia-->
    <div id="exper">
+    <h3>Experiencia</h3>
+    <br>
     <div class="exper">
         <p >Lorem ipsum dolor sit amet consectetur adipisicing elit.
          Molestias sapiente nihil error delectus pariatur eum praesentium,
@@ -107,17 +111,20 @@
     </div>
    </div>
    <!--Formulario-->
-  <form action="" method="post">
-    <label for="_nombre">Nombre.:</label>
-    <input type="text" name="nombre" value="" />
-    <br/>
-    <label for="_email">E-mail.:</label>
-    <input type="text" name="email" value="" />
-    <br/>
-    <label for="_mensaje">Mensaje:</label>
-    <input type="text" name="mensaje" value="" />
-    <br/>    
-    <input type="submit" value="Enviar" />
+  <form action="" method="post" class="form_contact" id="miForm">
+    <h3>DATOS DE CONTACTO</h3>
+    <div class="user_info">
+      <label for="_nombre">Nombre.:</label>
+     <input type="text" name="nombre" value="Jon Doe" />
+     <br/>
+     <label for="_email">E-mail.:</label>
+      <input type="text" name="email" value="direccion@gmail.com" />
+     <br/>
+     <label for="_mensaje">Mensaje:</label>
+     <input type="text" name="mensaje" value="Nos interesa contactarte" />
+     <br/>    
+     <input type="submit" value="Enviar" id="btnSend" />
+    </div>
   </form>
 
 </body>
@@ -128,7 +135,7 @@
               <h2>Redes</h2>
               <li>
                 <div class="facebook">
-                  <a href="https://facebook.com/colorlib/">
+                  <a href="https://facebook.com">
                     <i class="fa fa-facebook" aria-hidden="true"></i>
                   </a>
                 </div>
@@ -136,7 +143,7 @@
               </li>
               <li>
                 <div class="twitter">
-                  <a href="https://twitter.com/colorlib/">
+                  <a href="https://twitter.com">
                     <i class="fa fa-twitter" aria-hidden="true"></i>
                   </a>
                 </div>
@@ -144,7 +151,7 @@
               </li>
               <li>
                 <div class="youtube">
-                  <a href="https://www.youtube.com/c/Colorlib">
+                  <a href="https://www.youtube.com">
                     <i class="fa fa-youtube" aria-hidden="true"></i>
                   </a>
                 </div>
@@ -152,7 +159,7 @@
               </li>
               <li>
                 <div class="linkedin">
-                  <a href="https://www.linkedin.com/company/colorlib">
+                  <a href="https://www.linkedin.com">
                     <i class="fa fa-linkedin" aria-hidden="true"></i>
                   </a>
                 </div>
@@ -160,7 +167,7 @@
               </li>
               <li>
                 <div class="instagram">
-                  <a href="https://www.linkedin.com/company/colorlib">
+                  <a href="https://www.instagram.com">
                     <i class="fa fa-instagram" aria-hidden="true"></i>
                   </a>
                 </div>
@@ -168,7 +175,7 @@
               </li>
               <li>
                 <div class="github">
-                  <a href="https://github.com/puikinsh/">
+                  <a href="https://github.com">
                     <i class="fa fa-github" aria-hidden="true"></i>
                   </a>
                 </div>
